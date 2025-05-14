@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; /* Adicionado espaçamento inferior */
+}
+
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6; /* Melhor legibilidade */
+    padding: 10px; /* Adicionado espaçamento interno */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5% 0;
+    text-align: center;
+    border-bottom: 3px solid #236e26; /* Adicionado destaque */
+}
+
+/* Estilo para listas */
+li {
+    display: inline;
+    color: #f4f4f4;
+    margin-right: 15px; /* Adicionado espaçamento entre itens */
+}
+
+/* Estilo para links */
+a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Adicionado transição suave */
+}
+
+a:hover {
+    background-color: #236e26;
+    padding: 5px 10px; /* Ajustado para um padding mais consistente */
+    border-radius: 3px; /* Adicionado bordas arredondadas */
+}
+
+/* Estilo para seções */
+section {
+    margin: 20px auto; /* Centralizado horizontalmente */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limitado a largura máxima */
+    color: #333; /* Ajustado para consistência */
+}
+
+/* Estilo para parágrafos */
+p {
+    color: #333; /* Ajustado para consistência */
+    margin-bottom: 20px;
+    line-height: 1.6; /* Melhor legibilidade */
+}
+
+/* Estilo para links dentro de parágrafos */
+p > a {
+    color: #4CAF50;
+    text-decoration: underline; /* Melhor acessibilidade */
+    transition: color 0.3s ease; /* Adicionado transição suave */
+}
+
+p > a:hover {
+    color: #236e26; /* Cor alterada ao passar o mouse */
+}
